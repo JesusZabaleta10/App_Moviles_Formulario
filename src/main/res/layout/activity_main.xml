@@ -31,23 +31,23 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
-        <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/tv_nombre"
-                android:text="@string/nombre"
-                android:textSize="24sp"
-                android:textAllCaps="true"
-                android:layout_marginTop="10dp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_nombre"
+                    android:text="@string/nombre"
+                    android:textSize="24sp"
+                    android:textAllCaps="true"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
 
-        <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/et_nombre"
-                android:inputType="text"
-                android:hint="Ingresa tu nombre"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_nombre"
+                    android:inputType="text"
+                    android:hint="Ingresa tu nombre"/>
 
             <TextView
                     android:layout_width="match_parent"
@@ -85,29 +85,29 @@
                     android:inputType="textPassword"
                     android:hint="Ingresa contraseña nuevamente"/>
 
-        <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/tv_correo"
-                android:text="@string/correo"
-                android:textSize="24sp"
-                android:layout_marginTop="10dp"
-                android:textAllCaps="true"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_correo"
+                    android:text="@string/correo"
+                    android:textSize="24sp"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
 
-        <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/et_correo"
-                android:inputType="textEmailAddress"
-                android:hint="Ingresa correo electrónico"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_correo"
+                    android:inputType="textEmailAddress"
+                    android:hint="Ingresa correo electrónico"/>
 
-        <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="10dp">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
 
             <TextView
                     android:layout_width="wrap_content"
